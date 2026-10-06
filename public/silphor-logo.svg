@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800;900&amp;display=swap');
+      .silphor-title {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 80px;
+        letter-spacing: 0.08em;
+        fill: #082142;
+      }
+      .silphor-subtitle {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        letter-spacing: 0.22em;
+        fill: #008080;
+      }
+      .silphor-tagline {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 21px;
+        letter-spacing: 0.14em;
+        fill: #082142;
+      }
+    </style>
+  </defs>
+
+  <!-- Clean Background (optional for transparency, transparent canvas) -->
+  <rect width="800" height="800" fill="transparent" />
+
+  <!-- ============================================== -->
+  <!-- SP EMBLEM WITH PCB CIRCUIT TRACES & MICROCHIP  -->
+  <!-- ============================================== -->
+
+  <!-- Left Circuit Traces to S (Navy #082142) -->
+  <g stroke="#082142" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top Trace -->
+    <path d="M 145 235 L 205 235 L 255 272 L 285 272" fill="none" />
+    <!-- Middle Trace -->
+    <path d="M 115 320 L 255 320" fill="none" />
+    <!-- Bottom Trace -->
+    <path d="M 145 405 L 205 405 L 255 368 L 275 368" fill="none" />
+  </g>
+  <!-- Left Trace Nodes (Solid Circles) -->
+  <circle cx="145" cy="235" r="14" fill="#082142" />
+  <circle cx="115" cy="320" r="14" fill="#082142" />
+  <circle cx="145" cy="405" r="14" fill="#082142" />
+
+  <!-- Big Bold Letter 'S' (Navy #082142) -->
+  <path
+    d="M 285 210
+       C 285 165 325 135 390 135
+       C 430 135 460 150 480 175
+       L 425 215
+       C 415 200 400 190 385 190
+       C 355 190 345 205 345 220
+       C 345 240 365 255 410 270
+       C 465 290 500 325 500 375
+       C 500 435 450 475 380 475
+       C 330 475 285 450 260 410
+       L 315 370
+       C 330 395 350 415 380 415
+       C 410 415 435 395 435 375
+       C 435 350 415 335 375 320
+       C 315 300 285 265 285 210 Z"
+    fill="#082142"
+  />
+
+  <!-- Big Bold Letter 'P' (Teal #008080) -->
+  <path
+    d="M 400 135
+       L 550 135
+       C 615 135 660 175 660 245
+       C 660 315 615 355 550 355
+       L 465 355
+       L 465 475
+       L 400 475
+       Z
+       M 465 195
+       L 465 295
+       L 540 295
+       C 575 295 595 275 595 245
+       C 595 215 575 195 540 195
+       Z"
+    fill="#008080"
+  />
+
+  <!-- Right Circuit Traces from P (Teal #008080) -->
+  <g stroke="#008080" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top Trace -->
+    <path d="M 645 248 L 680 215 L 735 215" fill="none" />
+    <!-- Middle Trace -->
+    <path d="M 660 310 L 755 310" fill="none" />
+    <!-- Bottom Trace -->
+    <path d="M 610 355 L 655 395 L 735 395" fill="none" />
+  </g>
+  <!-- Right Trace Nodes (Solid Circles) -->
+  <circle cx="735" cy="215" r="14" fill="#008080" />
+  <circle cx="755" cy="310" r="14" fill="#008080" />
+  <circle cx="735" cy="395" r="14" fill="#008080" />
+
+  <!-- Center Microchip Package at bottom joint between S and P -->
+  <g transform="translate(415, 460)">
+    <!-- White background isolation disc to match logo cleanly -->
+    <circle cx="0" cy="0" r="42" fill="#FFFFFF" />
+
+    <!-- 8 Pins (2 on each of 4 sides) -->
+    <!-- Top Pins -->
+    <rect x="-14" y="-36" width="6" height="12" rx="2" fill="#082142" />
+    <rect x="8" y="-36" width="6" height="12" rx="2" fill="#082142" />
+    <!-- Bottom Pins -->
+    <rect x="-14" y="24" width="6" height="12" rx="2" fill="#082142" />
+    <rect x="8" y="24" width="6" height="12" rx="2" fill="#082142" />
+    <!-- Left Pins -->
+    <rect x="-36" y="-14" width="12" height="6" rx="2" fill="#082142" />
+    <rect x="-36" y="8" width="12" height="6" rx="2" fill="#082142" />
+    <!-- Right Pins -->
+    <rect x="24" y="-14" width="12" height="6" rx="2" fill="#082142" />
+    <rect x="24" y="8" width="12" height="6" rx="2" fill="#082142" />
+
+    <!-- Outer Chip Body -->
+    <rect x="-26" y="-26" width="52" height="52" rx="8" fill="#082142" />
+    <!-- Inner Silicon Die (White) -->
+    <rect x="-15" y="-15" width="30" height="30" rx="4" fill="#FFFFFF" />
+    <!-- Core Die Center (Navy) -->
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#082142" />
+  </g>
+
+  <!-- ============================================== -->
+  <!-- TYPOGRAPHY: SILPHOR                           -->
+  <!-- ============================================== -->
+  <text x="400" y="605" text-anchor="middle" class="silphor-title">SILPHOR</text>
+
+  <!-- ============================================== -->
+  <!-- TYPOGRAPHY: — TECHNOLOGIES —                  -->
+  <!-- ============================================== -->
+  <!-- Left Rule -->
+  <line x1="85" y1="652" x2="195" y2="652" stroke="#008080" stroke-width="5" stroke-linecap="round" />
+  <!-- Text -->
+  <text x="400" y="664" text-anchor="middle" class="silphor-subtitle">TECHNOLOGIES</text>
+  <!-- Right Rule -->
+  <line x1="605" y1="652" x2="715" y2="652" stroke="#008080" stroke-width="5" stroke-linecap="round" />
+
+  <!-- ============================================== -->
+  <!-- TAGLINE: DESIGN • INNOVATE • VERIFY • DELIVER  -->
+  <!-- ============================================== -->
+  <text x="400" y="722" text-anchor="middle" class="silphor-tagline">
+    DESIGN  •  INNOVATE  •  VERIFY  •  DELIVER
+  </text>
+</svg>

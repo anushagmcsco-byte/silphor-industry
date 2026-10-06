@@ -1,0 +1,6 @@
+{
+  "name": "Silphor Technologies - Enterprise Semiconductor & Engineering Solutions",
+  "description": "Global enterprise platform for semiconductor design, VLSI verification, embedded systems, global partner discovery, RFQ bidding workflows, engineering resource staffing, and CRM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

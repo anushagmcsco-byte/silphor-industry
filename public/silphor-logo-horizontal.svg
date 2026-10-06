@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800;900&amp;display=swap');
+      .h-silphor-title {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 82px;
+        letter-spacing: 0.08em;
+        fill: #FFFFFF;
+      }
+      .h-silphor-subtitle {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 34px;
+        letter-spacing: 0.24em;
+        fill: #008080;
+      }
+      .h-silphor-tagline {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 19px;
+        letter-spacing: 0.16em;
+        fill: #94A3B8;
+      }
+    </style>
+  </defs>
+
+  <!-- SP Emblem Container (Left, 0 to 360) -->
+  <g transform="translate(10, 0)">
+    <!-- Left Circuit Traces to S (Navy #082142 on white or light blue #38BDF8) -->
+    <g stroke="#38BDF8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 40 70 L 80 70 L 115 95 L 135 95" fill="none" />
+      <path d="M 20 125 L 115 125" fill="none" />
+      <path d="M 40 180 L 80 180 L 115 155 L 130 155" fill="none" />
+    </g>
+    <circle cx="40" cy="70" r="10" fill="#38BDF8" />
+    <circle cx="20" cy="125" r="10" fill="#38BDF8" />
+    <circle cx="40" cy="180" r="10" fill="#38BDF8" />
+
+    <!-- Big Bold Letter 'S' (Crisp White #FFFFFF) -->
+    <path
+      d="M 135 55
+         C 135 25 160 5 205 5
+         C 230 5 250 15 265 30
+         L 230 55
+         C 222 45 212 40 202 40
+         C 182 40 175 50 175 60
+         C 175 72 190 82 220 92
+         C 255 105 280 128 280 162
+         C 280 202 248 230 200 230
+         C 168 230 138 212 120 185
+         L 155 160
+         C 165 175 180 190 200 190
+         C 220 190 238 178 238 162
+         C 238 145 225 135 200 125
+         C 155 110 135 88 135 55 Z"
+      fill="#FFFFFF"
+    />
+
+    <!-- Big Bold Letter 'P' (Teal #008080) -->
+    <path
+      d="M 210 5
+         L 310 5
+         C 355 5 385 30 385 78
+         C 385 125 355 150 310 150
+         L 255 150
+         L 255 230
+         L 210 230
+         Z
+         M 255 45
+         L 255 110
+         L 305 110
+         C 330 110 342 98 342 78
+         C 342 58 330 45 305 45
+         Z"
+      fill="#008080"
+    />
+
+    <!-- Right Circuit Traces from P (Teal #008080) -->
+    <g stroke="#008080" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 375 78 L 400 55 L 435 55" fill="none" />
+      <path d="M 385 120 L 445 120" fill="none" />
+      <path d="M 352 150 L 382 175 L 435 175" fill="none" />
+    </g>
+    <circle cx="435" cy="55" r="10" fill="#008080" />
+    <circle cx="445" cy="120" r="10" fill="#008080" />
+    <circle cx="435" cy="175" r="10" fill="#008080" />
+
+    <!-- Center Microchip Package -->
+    <g transform="translate(225, 220)">
+      <circle cx="0" cy="0" r="30" fill="#030712" />
+
+      <!-- 8 Pins -->
+      <rect x="-9" y="-24" width="4" height="8" rx="1" fill="#38BDF8" />
+      <rect x="5" y="-24" width="4" height="8" rx="1" fill="#38BDF8" />
+      <rect x="-9" y="16" width="4" height="8" rx="1" fill="#38BDF8" />
+      <rect x="5" y="16" width="4" height="8" rx="1" fill="#38BDF8" />
+      <rect x="-24" y="-9" width="8" height="4" rx="1" fill="#38BDF8" />
+      <rect x="-24" y="5" width="8" height="4" rx="1" fill="#38BDF8" />
+      <rect x="16" y="-9" width="8" height="4" rx="1" fill="#38BDF8" />
+      <rect x="16" y="5" width="8" height="4" rx="1" fill="#38BDF8" />
+
+      <rect x="-18" y="-18" width="36" height="36" rx="5" fill="#0F172A" stroke="#38BDF8" stroke-width="2" />
+      <rect x="-10" y="-10" width="20" height="20" rx="3" fill="#FFFFFF" />
+      <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="#0F172A" />
+    </g>
+  </g>
+
+  <!-- Typography on the Right (480 to 920) -->
+  <g transform="translate(480, 0)">
+    <text x="0" y="95" class="h-silphor-title">SILPHOR</text>
+
+    <!-- Subtitle with horizontal rules -->
+    <g transform="translate(0, 140)">
+      <line x1="0" y1="-10" x2="45" y2="-10" stroke="#008080" stroke-width="4" stroke-linecap="round" />
+      <text x="60" y="0" class="h-silphor-subtitle">TECHNOLOGIES</text>
+      <line x1="390" y1="-10" x2="435" y2="-10" stroke="#008080" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <!-- Tagline -->
+    <text x="0" y="195" class="h-silphor-tagline">
+      DESIGN  •  INNOVATE  •  VERIFY  •  DELIVER
+    </text>
+  </g>
+</svg>

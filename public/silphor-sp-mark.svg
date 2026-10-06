@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="100%" height="100%">
+  <!-- Left Circuit Traces to S (Navy #082142) -->
+  <g stroke="#082142" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 80 115 L 140 115 L 190 152 L 220 152" fill="none" />
+    <path d="M 50 200 L 190 200" fill="none" />
+    <path d="M 80 285 L 140 285 L 190 248 L 210 248" fill="none" />
+  </g>
+  <circle cx="80" cy="115" r="15" fill="#082142" />
+  <circle cx="50" cy="200" r="15" fill="#082142" />
+  <circle cx="80" cy="285" r="15" fill="#082142" />
+
+  <!-- Big Bold Letter 'S' (Navy #082142) -->
+  <path
+    d="M 220 90
+       C 220 45 260 15 325 15
+       C 365 15 395 30 415 55
+       L 360 95
+       C 350 80 335 70 320 70
+       C 290 70 280 85 280 100
+       C 280 120 300 135 345 150
+       C 400 170 435 205 435 255
+       C 435 315 385 355 315 355
+       C 265 355 220 330 195 290
+       L 250 250
+       C 265 275 285 295 315 295
+       C 345 295 370 275 370 255
+       C 370 230 350 215 310 200
+       C 250 180 220 145 220 90 Z"
+    fill="#082142"
+  />
+
+  <!-- Big Bold Letter 'P' (Teal #008080) -->
+  <path
+    d="M 335 15
+       L 485 15
+       C 550 15 595 55 595 125
+       C 595 195 550 235 485 235
+       L 400 235
+       L 400 355
+       L 335 355
+       Z
+       M 400 75
+       L 400 175
+       L 475 175
+       C 510 175 530 155 530 125
+       C 530 95 510 75 475 75
+       Z"
+    fill="#008080"
+  />
+
+  <!-- Right Circuit Traces from P (Teal #008080) -->
+  <g stroke="#008080" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 580 128 L 615 95 L 670 95" fill="none" />
+    <path d="M 595 190 L 690 190" fill="none" />
+    <path d="M 545 235 L 590 275 L 670 275" fill="none" />
+  </g>
+  <circle cx="670" cy="95" r="15" fill="#008080" />
+  <circle cx="690" cy="190" r="15" fill="#008080" />
+  <circle cx="670" cy="275" r="15" fill="#008080" />
+
+  <!-- Center Microchip Package at bottom joint between S and P -->
+  <g transform="translate(350, 340)">
+    <circle cx="0" cy="0" r="46" fill="#FFFFFF" />
+
+    <!-- 8 Pins -->
+    <rect x="-14" y="-38" width="6" height="13" rx="2" fill="#082142" />
+    <rect x="8" y="-38" width="6" height="13" rx="2" fill="#082142" />
+    <rect x="-14" y="25" width="6" height="13" rx="2" fill="#082142" />
+    <rect x="8" y="25" width="6" height="13" rx="2" fill="#082142" />
+    <rect x="-38" y="-14" width="13" height="6" rx="2" fill="#082142" />
+    <rect x="-38" y="8" width="13" height="6" rx="2" fill="#082142" />
+    <rect x="25" y="-14" width="13" height="6" rx="2" fill="#082142" />
+    <rect x="25" y="8" width="13" height="6" rx="2" fill="#082142" />
+
+    <rect x="-27" y="-27" width="54" height="54" rx="8" fill="#082142" />
+    <rect x="-16" y="-16" width="32" height="32" rx="4" fill="#FFFFFF" />
+    <rect x="-9" y="-9" width="18" height="18" rx="2" fill="#082142" />
+  </g>
+</svg>
